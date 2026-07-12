@@ -13,9 +13,9 @@
 // Wenn du den Bot auf einem anderen Server laufen lässt, 
 // trag hier die DB-Zugangsdaten ein:
 $DB_HOST = 'localhost';
-$DB_USER = 'st75757_roun131';
-$DB_PASS = '5S8(5FT[8p';
-$DB_NAME = 'st75757_roun131';
+$DB_USER = 'XXXXXXXXX';
+$DB_PASS = 'XXXXXXXXX';
+$DB_NAME = 'XXXXXXXXX';
 
 // Lokale config.php verwenden (wenn vorhanden)
 $CONFIG_FILE = __DIR__ . '/config.php';
@@ -23,7 +23,7 @@ $CONFIG_FILE = __DIR__ . '/config.php';
 // ============================================================
 // IRC SERVER
 // ============================================================
-$IRC_SERVER = 'irc.fortknox.cloudns.cc';
+$IRC_SERVER = 'XXXXXXXXX';
 $IRC_PORT = 6667;
 $IRC_SSL = false;
 
@@ -35,7 +35,7 @@ $IRC_SERVER_PASS = 'f0rtkn0x4ever+-+-!#';
 // ============================================================
 $IRC_NICK = 'PreBot';
 $IRC_USER = 'PreBot';
-$IRC_REALNAME = 'FortKnox PreDB Release Bot - predb.dnsabr.com';
+$IRC_REALNAME = 'XXXXXXXXX PreDB Release Bot - XXXXXXXXX.com';
 
 // NickServ Passwort (optional)
 $IRC_NICKSERV_PASS = '';
