@@ -27,7 +27,7 @@ $IRC_PORT = 6667;
 $IRC_SSL = false;
 $IRC_NICK = 'PreBot';
 $IRC_USER = 'PreBot';
-$IRC_REALNAME = 'FortKnox PreDB Release Bot';
+$IRC_REALNAME = 'PreDB Release Bot';
 $IRC_SERVER_PASS = '';
 $IRC_NICKSERV_PASS = '';
 
@@ -53,8 +53,8 @@ $MAX_ANNOUNCE = 5;
 // Wenn aktiviert, holt der Bot Releases per HTTPS von der bot_api.php
 // Vorteil: Kein MySQL-Remote-Zugriff nötig, funktioniert überall
 $API_ENABLED = false;
-$API_URL = 'https://predb.dnsabr.com/bot_api.php';
-$API_SECRET = 'PreBot2024!SecureAPIKey#FortKnox';
+$API_URL = 'https://XXXXXXXXXm/bot_api.php';
+$API_SECRET = 'PreBot2024!SecureAPIKey#';
 
 // Channel-Listener (Releases von anderen Bots abgreifen)
 $IRC_LISTEN_ENABLED = true;    // Mithören aktiv?
@@ -73,7 +73,7 @@ $PID_FILE = $IRCBOT_DIR . '/ircbot.pid';
 
 // API-Modus (statt MySQL)
 $API_MODE = false;
-$API_URL = 'https://predb.dnsabr.com/bot_api.php';
+$API_URL = 'https://XXXXXXXXX/bot_api.php';
 $API_SECRET = '';
 
 // API-Modus (statt MySQL)
