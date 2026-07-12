@@ -1,6 +1,6 @@
 <?php
 /**
- * FortKnox PreDB IRC Bot v2.0 – Portable Edition
+ *  PreDB IRC Bot v2.0 – Portable Edition
  * ==========================================
  * Features: Blowfish/FiSH, Server-Passwort, NickServ, Auto-Announce
  * 
