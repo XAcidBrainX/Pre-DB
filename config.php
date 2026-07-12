@@ -8,9 +8,9 @@ session_start();
 
 // Datenbank Verbindung
 $db_host = 'localhost';
-$db_user = 'st75757_roun131';
-$db_pass = '5S8(5FT[8p';
-$db_name = 'st75757_roun131';
+$db_user = 'XXXXXXXXX';
+$db_pass = 'XXXXXXXXX';
+$db_name = 'XXXXXXXXX';
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
@@ -29,8 +29,8 @@ if (function_exists('ini_set')) {
     ini_set('display_errors', 0);
 }
 
-define('SITE_NAME', 'FortKnox PreDB');
-define('SITE_TITLE', 'FortKnox PreDB › Deutsche Scene Release Datenbank & NFO Quelltext');
+define('SITE_NAME', 'PreDB');
+define('SITE_TITLE', ' PreDB › Deutsche Scene Release Datenbank & NFO Quelltext');
 define('ITEMS_PER_PAGE', 50);
 define('DB_PREFIX', 'predb_');
 
