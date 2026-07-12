@@ -36,8 +36,8 @@ $ADMIN_USER = 'admin';
 $ADMIN_PASS = '';
 $ADMIN_EMAIL = '';
 
-$SITE_URL = '';          // z.B. https://predb.dnsabr.com
-$SITE_TITLE = 'FortKnox PreDB › Deutsche Scene Release Datenbank & NFO Quelltext';
+$SITE_URL = '';          // z.B. https://XXXXXXXXX.dnsabr.com
+$SITE_TITLE = ' PreDB › Deutsche Scene Release Datenbank & NFO Quelltext';
 
 $INSTALL_DIR = __DIR__;
 
@@ -522,7 +522,7 @@ function showSummary($dbHost, $dbUser, $dbName, $adminUser, $adminPass, $siteUrl
     headline("Installation abgeschlossen!");
     
     out("╔══════════════════════════════════════════════════════════╗");
-    out("║  🌐 FortKnox PreDB – Deutsche Scene Release DB      ║");
+    out("║  🌐 PreDB – Deutsche Scene Release DB      ║");
     out("╠══════════════════════════════════════════════════════════╣");
     out("║  📅 " . str_pad(date('d.m.Y H:i'), 48) . "║");
     out("╠══════════════════════════════════════════════════════════╣");
@@ -586,7 +586,7 @@ function testDbConnection($host, $user, $pass, $name) {
 // Banner
 echo "\n";
 echo "╔══════════════════════════════════════════════════════════╗\n";
-echo "║      🚀  FortKnox PreDB Installation  v2.0            ║\n";
+echo "║      🚀  PreDB Installation  v2.0            ║\n";
 echo "║      Deutsche Scene Release Datenbank & NFO Quelltext   ║\n";
 echo "╚══════════════════════════════════════════════════════════╝\n";
 
