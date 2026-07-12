@@ -1,6 +1,6 @@
 <?php
 /**
- * FortKnox PreDB Multi-Source Auto-Sync
+ *  PreDB Multi-Source Auto-Sync
  * Holt Releases von predb.net (API), m2v.ru (HTML) und predb.me (HTML) und importiert sie.
  * 
  * Aufruf: php sync.php
