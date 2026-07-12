@@ -53,7 +53,7 @@ PHP_VER=$(php -r "echo PHP_VERSION;")
 echo "✅ PHP $PHP_VER gefunden"
 
 # Prüfe ob config.php angepasst werden muss
-if grep -q "st75757" config.php 2>/dev/null; then
+if grep -q "XXXX" config.php 2>/dev/null; then
     echo ""
     echo "⚠️  Die config.php enthält noch alte Zugangsdaten."
     echo "   Bitte bearbeite config.php und trage die neuen DB-Daten ein."
@@ -77,7 +77,7 @@ echo ""
 
 # Optional: .env erstellen
 if [ ! -f .env ]; then
-    echo "IRC_SERVER=irc.fortknox.cloudns.cc" > .env
+    echo "IRC_SERVER=XXXX" > .env
     echo "IRC_PORT=6667" >> .env
     echo "IRC_NICK=PreBot" >> .env
     echo "✅ .env Datei erstellt"
