@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Block common vulnerability scanners (path traversal)
+RewriteCond %{REQUEST_URI} \.(env|aws/credentials|config\.json|config\.js)$ [NC,OR]
+RewriteCond %{REQUEST_URI} (/api/|/vendor/|/storage/|/wp-admin/|/administrator/) [NC]
+RewriteRule ^ - [R=404,L]
+
+# Zugriff auf .git schützen
+RedirectMatch 404 /\.git
