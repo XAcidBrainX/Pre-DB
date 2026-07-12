@@ -4,9 +4,9 @@
  * Verwendet INSERT IGNORE und korrekte String-Replacements
  */
 
-$sqlFile = '/home/st75757/domains/st75757.ispot.cc/public_html/backup.sql';
+$sqlFile = '/home/st75757/domains/XXXXXXXXX/public_html/backup.sql';
 
-$conn = new mysqli('localhost', 'st75757_roun131', '5S8(5FT[8p', 'st75757_roun131');
+$conn = new mysqli('localhost', 'XXXXXXXXX', 'XXXXXXXXX', 'XXXXXXXXX');
 if ($conn->connect_error) die("Fehler: " . $conn->connect_error);
 
 echo date('H:i:s') . " Verbunden\n";
